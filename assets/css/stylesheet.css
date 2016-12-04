@@ -38,7 +38,9 @@ input[type=text] {
   list-style-type: none;
   text-align: center;*/
 }
-.nav-page{
+.nav-pages{
+  margin-left: auto;
+  margin-right: auto;
   /*float: left;*/
   /*padding: 0 25px;
   display: inline;
@@ -51,8 +53,6 @@ input[type=text] {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  margin-left: auto;
-  margin-right: auto;
 }
 .nav-pages a:hover:not(.active) {
   background-color: #111111;
