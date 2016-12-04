@@ -38,14 +38,14 @@ input[type=text] {
   text-align: center;*/
 }
 .nav-page{
-  float: left;
+  /*float: left;*/
   /*padding: 0 25px;
   display: inline;
   vertical-align: -webkit-baseline-middle;
   color: #D1CFCF;*/
 }
 .nav-pages a{
-  display: block;
+  display: inline;
   color: #FFFFFF;
   text-align: center;
   padding: 14px 16px;
