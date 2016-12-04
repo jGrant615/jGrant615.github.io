@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Limelight|Poiret+One');
 
 body{
   /*background-color: #D1CFCF;*/
@@ -57,12 +57,10 @@ input[type=text] {
   background-color: #FF5E04;
 }
 .signature{
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Limelight', cursive;
   margin-top: 120px;
-  text-align: center;
   font-size: 72px;
   color: #FFFFFF;
-  position: relative;
 }
 @media(max-width: 768px){ /*@screen-md*/
   .signature{
@@ -77,6 +75,9 @@ input[type=text] {
 .home-contact{
   text-align: center;
   margin-top: 400px;
+}
+#contact-me{
+  display: block;
 }
 .center-img-container{
   display: inline-block;
@@ -99,14 +100,10 @@ input[type=text] {
   .exp-half{
     padding-left: 50px;
   }
-  .work-exp-thumbnails, .prev-work-thumbnails {
-    padding-left: 50px!important;
-  }
 }
 .work-exp-thumbnails, .prev-work-thumbnails{
   margin: auto;
-  width: 150%;
-  padding: 15px;
+  width: 100%;
 }
 .exp-link{
   text-align: center;
