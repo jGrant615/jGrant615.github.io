@@ -69,19 +69,17 @@ input[type=text] {
   margin-top: 400px;
 }
 .center-img-container{
-  background-color:#FF5E04;
   display: inline-block;
+  text-align: center;
 }
 .home-img{
   border-radius: 50%;
   max-width: 20%;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  margin-top: -110px;
-  margin-left: -140px;
+  min-width: 15%;
+  margin-left: auto;
+  margin-right:auto;
   border: 4px solid #FF5E04; /*Orange*/
-  display: block;
+  display: inline;
 }
 .resume-half{
   background-image: url("../img/bl-background.jpg");
