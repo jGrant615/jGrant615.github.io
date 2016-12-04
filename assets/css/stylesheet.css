@@ -5,8 +5,6 @@ body{
   background-image: url("../img/bl-background.jpg");
 }
 nav{
-  background-image: url("../img/dark-background.jpg");
-  margin-bottom: 0!important;
 }
 iframe{
   /*padding: 30px;*/
@@ -30,15 +28,31 @@ input[type=text] {
   border-radius: 4px;
 }
 .pages{
-  padding-left: 0px;
+  background-image: url("../img/dark-background.jpg");
+  margin: 0!important;
+  overflow: hidden;
   list-style-type: none;
-  text-align: center;
+  padding: 0;
+  /*padding-left: 0px;
+  list-style-type: none;
+  text-align: center;*/
 }
 .nav-page{
-  padding: 0 25px;
+  float: left;
+  /*padding: 0 25px;
   display: inline;
   vertical-align: -webkit-baseline-middle;
-  color: #D1CFCF;
+  color: #D1CFCF;*/
+}
+.nav-pages a{
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav-pages a:hover:not(.active) {
+  background-color: #111111;
 }
 .signature{
   font-family: 'Dancing Script', cursive;
