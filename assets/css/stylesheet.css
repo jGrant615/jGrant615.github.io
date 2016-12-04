@@ -28,7 +28,7 @@ input[type=text] {
   border-radius: 4px;
 }
 .pages{
-  display: inline;
+  display: -webkit-box;
   background-image: url("../img/dark-background.jpg");
   margin: 0!important;
   overflow: hidden;
