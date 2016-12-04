@@ -38,14 +38,13 @@ input[type=text] {
   list-style-type: none;
   text-align: center;*/
 }
-.nav-pages{
+.nav-page-container{
+  display: flex;
   margin-left: auto;
   margin-right: auto;
-  /*float: left;*/
-  /*padding: 0 25px;
-  display: inline;
-  vertical-align: -webkit-baseline-middle;
-  color: #D1CFCF;*/
+}
+.nav-pages{
+  padding: 0 10px;
 }
 .nav-pages a{
   display: block;
@@ -55,7 +54,7 @@ input[type=text] {
   text-decoration: none;
 }
 .nav-pages a:hover:not(.active) {
-  background-color: #111111;
+  background-color: #FF5E04;
 }
 .signature{
   font-family: 'Dancing Script', cursive;
