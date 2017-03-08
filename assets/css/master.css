@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Yanone+Kaffeesatz:400,700');
+.home-left {
+  background-color: rgba(10, 33, 57, 0.5);
+}
+.home-left .headshot {
+  margin-top: 15px;
+}
+.home-left .headshot img {
+  max-width: 100%;
+}
+.home-left #name {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.home-left .personal-info {
+  text-align: left;
+}
+.home-left .personal-info .info-sec-head {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+.home-left .personal-info .degree-info,
+.home-left .personal-info .skill-info,
+.home-left .personal-info .contact-info {
+  padding-left: 0px;
+  list-style-type: none;
+}
+.home-left .personal-info .degree-info .info,
+.home-left .personal-info .skill-info .info,
+.home-left .personal-info .contact-info .info {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+.home-left .personal-info .degree-info a,
+.home-left .personal-info .skill-info a,
+.home-left .personal-info .contact-info a {
+  text-decoration: none;
+  color: #000000;
+}
