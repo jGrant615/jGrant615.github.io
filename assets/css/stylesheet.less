@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow|Yanone+Kaffeesatz:400,700');
-// Compile: 'lessc --clean-css styles.less master.min.css'
+// Compile: 'lessc --clean-css stylesheet.less master.min.css'
 //Variable definitions
-@DarkBlue: #0a2139;
-@Background-Dark: rgba(10,33,57,0.5);
+@cream: #F2EFE9;
+@sandy-red: #904E55;
+@plum: #413C58;
 @header-font: 'Yanone Kaffeesatz', sans-serif;
 @body-font: 'PT Sans Narrow', sans-serif;
-
 .home-left{
-  background-color: @Background-Dark;
+  background-color: @sandy-red;
   height: 100vh;
   .headshot{
     margin-top: 10px;
@@ -39,4 +39,30 @@
       }
     }
   }
-}
+} //End home-left
+.home-right{
+  padding: 0px;
+  .nav-container{
+    background-color: @sandy-red;
+    .nav{
+      list-style-type: none;
+      max-width: 100%;
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      li{
+        display: inline;
+        font-family: @header-font;
+        a{
+          display: inline;
+          color: @cream;
+        }
+      }
+      li:hover{
+        a{
+          color: #000000;
+        }
+      }
+    }
+  }
+} //End home-right
